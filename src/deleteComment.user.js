@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name            Delete doodstrm and other
 // @namespace       https://github.com/mbaharip
-// @version         1.0.0
+// @version         1.0.1
 // @author          mbaharip
 // @description     Hapus komentar bokep dari akun klon
 // @downloadURL     https://raw.githubusercontent.com/mbaharip/HapusKomentarTakBerakhlak/main/src/deleteComment.user.js
@@ -25,12 +25,19 @@ setInterval( async () => {
 async function main(){
     let exists = false
     // Check if comments exists
-    const commentHeader = document.querySelectorAll('h2');
-    commentHeader.forEach(header => {
+    const h2CommentHeader = document.querySelectorAll('h2');
+    const h3CommentHeader = document.querySelectorAll('h3');
+    h2CommentHeader.forEach(header => {
         if(header.innerText === "Comments") {
             exists = true;
             return
         }
+    })
+    h3CommentHeader.forEach(header => {
+        if(header.innerText.contains('comments')) {
+           exists = true;
+           return
+       }
     })
 
     if(!exists){
