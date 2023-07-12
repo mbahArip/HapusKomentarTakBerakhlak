@@ -3,7 +3,7 @@
 // @namespace       https://github.com/mbaharip
 // @version         1.0.0
 // @author          mbaharip
-// @description     Adds button to access artist's Kemono page
+// @description     Hapus komentar bokep dari akun klon
 // @downloadURL     https://raw.githubusercontent.com/mbaharip/HapusKomentarTakBerakhlak/main/src/deleteComment.user.js
 // @updateURL       https://raw.githubusercontent.com/mbahArip/HapusKomentarTakBerakhlak/main/src/deleteComment.meta.js
 // @supportURL      https://github.com/mbahArip/HapusKomentarTakBerakhlak/issues
