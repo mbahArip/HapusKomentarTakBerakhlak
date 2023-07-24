@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name            Delete doodstrm and other
 // @namespace       https://github.com/mbaharip
-// @version         1.0.2
+// @version         1.0.3
 // @author          mbaharip
 // @description     Hapus komentar bokep dari akun klon
 // @downloadURL     https://raw.githubusercontent.com/mbaharip/HapusKomentarTakBerakhlak/main/src/deleteComment.user.js
@@ -14,7 +14,7 @@
 // @license         GPL-3.0-or-later; https://www.gnu.org/licenses/gpl-3.0-standalone.html
 // ==/UserScript==
 
-const blockedDomain = ["doodstrm.com", "redr.me"]
+const blockedDomain = ["doodstrm.com", "redr.me", "iiil.io", "bitly.ws"]
 var loadUrl = window.location.href;
 
 setInterval( async () => {
